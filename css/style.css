@@ -1,0 +1,130 @@
+body {
+    background-color: darkslategray;
+    font-family: Century Gothic;
+}
+
+a {
+    text-decoration: none;
+}
+
+.content {
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    background-color: #fff;
+    border: 3px solid coral;
+}
+
+.menu {
+    width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu a.logo {
+    color: #fff;
+    font-family: Century Gothic;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+ul.items {
+    float: right;
+    display: inline-block;
+    color: #fff;
+    list-style-type: none;
+}
+
+ul.items li {
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+ul.items li a {
+    color: #fff;
+    transition: 0.2s all;
+}
+
+ul.items li a:hover {
+    color: lightcoral;
+    letter-spacing: 1px;
+    transition: 0.2s all;
+}
+
+.avatarka {
+    width: 200px;
+    height: 250px;
+    padding: 20px;
+    padding-right: 50px;
+    float: left;
+    transition: 0.3s all;
+}
+.avatarka:hover{
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 0.3s all;
+}
+
+ul.contacts {
+    padding: 20px;
+    padding-left: 30px;
+}
+
+ul.contacts li {
+    padding: 10px;
+}
+
+ul.contacts li.tel {
+    list-style-image: url(../img/tel.png);
+}
+
+ul.contacts li.e-mail {
+    list-style-image: url(../img/google.png);
+}
+
+ul.contacts li.skype {
+    list-style-image: url(../img/skype.png);
+}
+
+.caption {
+    color: lightcoral;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+}
+
+.skills {
+    padding: 30px;
+    height: 150px;
+}
+
+ul.Caption li {
+    font-size: 1.5em;
+    color: lightcoral;
+    font-weight: bold;
+    list-style-image: url(../img/strelka.png);
+}
+
+.expirience {
+    padding: 30px;
+}
+
+.education {
+    padding: 30px;
+}
+
+.personalSkills {
+    padding: 30px;
+}
+
+.personalSkills ul.skills {
+    list-style:circle;
+}
+.personalSkills ul.skills li{
+    padding: 10px;
+}
